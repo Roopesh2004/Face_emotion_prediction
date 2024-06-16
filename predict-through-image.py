@@ -64,7 +64,7 @@ def predict_image(model, img_path):
 # Example usage
 if __name__ == "__main__":
     # Path to the image
-    img_path = r"C:\Users\prana\OneDrive\Desktop\projectD\image-asset.jpeg"
+    img_path = r"path\to\the\picture"
     # Get predictions
     try:
         predictions = predict_image(model, img_path)
